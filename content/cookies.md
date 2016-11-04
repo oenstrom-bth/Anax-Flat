@@ -1,4 +1,4 @@
-About cookies
+Om cookies/kakor
 ==============================================
 
-What about cookies?
+Vi använder cookies.

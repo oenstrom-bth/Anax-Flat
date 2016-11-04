@@ -1,34 +1,26 @@
-Trying out Markdown
+Testar Markdown
 =================================
 
-This is a sample file on how to use Markdown together with Anax.
-
-
-
-Linking to other pages {#url}
+Länka till andra sidor {#url}
 ---------------------------------
 
-I can link to another document. In the same directory like the file [license.md](license). Or in another directory like [report/kmom01](report/kmom01).
+Jag kan länka till andra dokument. I samma katalog som filen [license.md](license). Eller i en annan katalog, [report/kmom01](report/kmom01).
 
-It does not matter in what subdirectory we are. All urls that are relative, will be prepended with the site base url. The base url will be the url to the [`htdocs`]() directory.
-
-You can find a copy of this file in a subdirectory [`example/markdown.md`](example/markdown). Try it out to verify that all urls work in both this document and in the document in the subdirectory.
+Det spelar ingen roll vilken underkatalog vi är i. Alla url:er som är relativa får sidans basurl infogad framför sig. Basurl:en är url:en till [`htdocs`]()-katalogen.
 
 
 
-Linking to image sources {#img}
+Länka till bilder {#img}
 ---------------------------------
 
-Linking to image sources works in the same manner as linking to other pages. Anax will prepend the base url to all relative image sources.
-
-Here are some samples on how you can link to a image using Markdown or HTML.
+Här är några exempel på hur du kan länka till bilder med Markdown eller HTML.
 
 ```text
 ![alt text](img/dbwebbisar.jpg)
 <img src="img/dbwebbisar.jpg" alt="alt text">
 ```
 
-This is the outcome of the two images.
+Och så här blir det.
 
 ![alt text](img/dbwebbisar.jpg)
 
@@ -36,10 +28,10 @@ This is the outcome of the two images.
 
 
 
-Creating a mailto: link {#mailto}
+Skapa en mailto: länk {#mailto}
 ---------------------------------
 
-You can create a mailto link using Markdown or HTML. It looks like this.
+Du kan skapa en mailto-länk med Markdown eller HTML. Det ser ut så här.
 
 ```text
 <mailto:user@example.com>
@@ -47,8 +39,63 @@ You can create a mailto link using Markdown or HTML. It looks like this.
 <a href="mailto:user@example.com">user@example.com</a>
 ```
 
-The resulting links looks like this.
+Resultatet ser ut så här.
 
 * <mailto:user@example.com>
 * <user@example.com>
 * <a href="mailto:user@example.com">user@example.com</a>
+
+
+
+Fet och kursiv text
+-----------------------------------
+
+```
+*Här är en kursiv text.*
+
+**Här är en fet text.**
+
+_Kursiv med understreck_
+
+__Fet med understreck__
+```
+
+*Här är en kursiv text.*
+
+**Här är en fet text.**
+
+_Kursiv med understreck_
+
+__Fet med understreck__
+
+
+Olika headings
+----------------------------------------
+
+```
+Heading 1
+========
+
+Heading 2
+--------
+
+###Heading 3
+
+####Heading 4
+
+#####Heading 5
+```
+
+Result:
+
+Heading 1
+========
+
+Heading 2
+--------
+
+###Heading 3
+
+####Heading 4
+
+#####Heading 5

@@ -1,4 +1,4 @@
-Contact
+Kontakt
 ==============================================
 
-Any questions about this site can be emailed to [Mikael Roos](https://mikaelroos.se) on (mos@dbwebb.se).
+Frågor om hemsidan kan skickas till [Olof Enström](mailto:olof.enstrom@gmail.com) (olof.enstrom@gmail.com).
