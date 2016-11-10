@@ -17,15 +17,18 @@ return [
             "bodyClass"     => [],
             "lang"          => "sv",
             "charset"       => "utf-8",
-            "title_append"  => " | Anax Flat",
+            "title_append"  => " | Olof Enström",
             "favicon"       => "img/favicon/favicon_256x256.png",
 
             // Style and stylesheets
-            "stylesheets" => ["css/default.min.css"],
+            "stylesheets" => [
+                "css/style.min.css",
+                "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            ],
             "styleInline" => null,
 
             // JavaScript
-            "javascripts" => [],
+            "javascripts" => ["js/responsive-menu.js"],
         ],
     ],
 
@@ -37,22 +40,12 @@ return [
     "views" => [
         [
             "region" => "header",
-            "template" => "default/image",
-            "data" => [
-                "class" => "logo-1",
-                "src" => "img/favicon/favicon_128x128.png",
-                "alt" => "Logo",
-            ],
-            "sort" => 1
-        ],
-        [
-            "region" => "header",
             "template" => "default/header",
             "data" => [
                 "homeLink"      => "",
-                "siteLogoText"  => "Anax Flat",
-                "siteLogoTextIcon" => "img/favicon/favicon_40x40.png",
-                "siteLogoTextIconAlt" => "Small logo",
+                "siteLogoText"  => "Olof Enström",
+                "siteLogoTextIcon" => null, //"img/favicon/favicon_40x40.png",
+                "siteLogoTextIconAlt" => null, //"Small logo",
                 "siteLogo"      => null, //"img/anax.png",
                 "siteLogoAlt"   => null, //"Anax Logo",
                 "siteTitle"     => null, //"Anax PHP framework",
@@ -60,14 +53,14 @@ return [
             ],
             "sort" => 2
         ],
-/*
+
         [
             "region" => "profile",
             "template" => "default/navbar-max",
             "data" => [],
             "sort" => -1
         ],
-*/
+
         [
             "region" => "navbar2",
             "template" => "default/navbar",

@@ -9,4 +9,6 @@ Här hittar du mer information om kursen: [dbwebb, design.](https://dbwebb.se/ku
 
 Min sida hittar du på GitHub: [Anax Flat](https://github.com/oenstrom/Anax-Flat).
 
+Mitt tema hittar du på GitHub: [Anax Flat Theme](https://github.com/oenstrom/anax-flat-theme).
+
 ![Design](img/design.jpg "Design")

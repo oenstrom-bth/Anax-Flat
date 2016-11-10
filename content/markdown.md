@@ -1,7 +1,7 @@
 Testar Markdown
 =================================
 
-Länka till andra sidor {#url}
+Länka till andra sidor
 ---------------------------------
 
 Jag kan länka till andra dokument. I samma katalog som filen [license.md](license). Eller i en annan katalog, [report/kmom01](report/kmom01).
@@ -10,7 +10,7 @@ Det spelar ingen roll vilken underkatalog vi är i. Alla url:er som är relativa
 
 
 
-Länka till bilder {#img}
+Länka till bilder
 ---------------------------------
 
 Här är några exempel på hur du kan länka till bilder med Markdown eller HTML.
@@ -28,7 +28,7 @@ Och så här blir det.
 
 
 
-Skapa en mailto: länk {#mailto}
+Skapa en mailto: länk
 ---------------------------------
 
 Du kan skapa en mailto-länk med Markdown eller HTML. Det ser ut så här.
@@ -84,6 +84,8 @@ Heading 2
 ####Heading 4
 
 #####Heading 5
+
+######Heading 6
 ```
 
 Result:
@@ -99,3 +101,5 @@ Heading 2
 ####Heading 4
 
 #####Heading 5
+
+######Heading 6
