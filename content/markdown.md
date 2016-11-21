@@ -15,16 +15,15 @@ Länka till bilder
 
 Här är några exempel på hur du kan länka till bilder med Markdown eller HTML.
 
-```text
-![alt text](img/dbwebbisar.jpg)
-<img src="img/dbwebbisar.jpg" alt="alt text">
-```
+    ![alt text](img/flash.png)
+    <img src="img/flash.png" alt="alt text">
+
 
 Och så här blir det.
 
-![alt text](img/dbwebbisar.jpg)
+![alt text](img/flash.png)
 
-<img src="img/dbwebbisar.jpg" alt="alt text">
+<img src="img/flash.png" alt="alt text">
 
 
 
@@ -33,11 +32,9 @@ Skapa en mailto: länk
 
 Du kan skapa en mailto-länk med Markdown eller HTML. Det ser ut så här.
 
-```text
-<mailto:user@example.com>
-<user@example.com>
-<a href="mailto:user@example.com">user@example.com</a>
-```
+    <mailto:user@example.com>
+    <user@example.com>
+    <a href="mailto:user@example.com">user@example.com</a>
 
 Resultatet ser ut så här.
 
@@ -50,15 +47,13 @@ Resultatet ser ut så här.
 Fet och kursiv text
 -----------------------------------
 
-```
-*Här är en kursiv text.*
+    *Här är en kursiv text.*
 
-**Här är en fet text.**
+    **Här är en fet text.**
 
-_Kursiv med understreck_
+    _Kursiv med understreck_
 
-__Fet med understreck__
-```
+    __Fet med understreck__
 
 *Här är en kursiv text.*
 
@@ -72,23 +67,21 @@ __Fet med understreck__
 Olika headings
 ----------------------------------------
 
-```
-Heading 1
-========
+    Heading 1
+    ========
 
-Heading 2
---------
+    Heading 2
+    --------
 
-###Heading 3
+    ###Heading 3
 
-####Heading 4
+    ####Heading 4
 
-#####Heading 5
+    #####Heading 5
 
-######Heading 6
-```
+    ######Heading 6
 
-Result:
+Resultat:
 
 Heading 1
 ========

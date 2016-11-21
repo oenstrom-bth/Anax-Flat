@@ -1,4 +1,4 @@
 Om cookies/kakor
 ==============================================
 
-Vi använder cookies.
+Kakor är godaste med mjölk till.

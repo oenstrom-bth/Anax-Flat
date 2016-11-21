@@ -415,94 +415,495 @@ template {
   display: none;
 }
 /**
- * Regions, basics to show off the regions.
+ * Typographic font families to choose from.
+ */
+/**
+ * Default font-families
+ */
+/**
+ * Typographic sizes for horisontal rythm.
+ */
+/**
+ * Magic number for vertical rythm
+ * @magicNumber = @fontSizeBody * @lineHeight
+ */
+/* 16px - 100%/1.5 */
+/**
+ * Size and lineheight calculation for magicNumber 24
+ *
+ * 3em     * 16px   = 48 => line-height: 48    = 1
+ * 2.875em * 16px   = 46 => line-height: 48/44 = 1.0435
+ * 2.75em  * 16px   = 44 => line-height: 48/44 = 1.0909
+ * 2.625em * 16px   = 42 => line-height: 48/42 = 1.1429
+ * 2.5em   * 16px   = 40 => line-height: 48/40 = 1.2
+ * 2.375em * 16px   = 38 => line-height: 48/38 = 1.2632
+ * 2.25em  * 16px   = 36 => line-height: 48/36 = 1.3333
+ * 2.125em * 16px   = 34 => line-height: 48/34 = 1.4118
+ * 2em     * 16px   = 32 => line-height: 48/32 = 1.5
+ * 1.875em * 16px   = 30 => line-height: 48/30 = 1.6
+ * 1.75em  * 16px   = 28 => line-height: 48/28 = 1.7143
+ * 1.625em * 16px   = 26 => line-height: 48/26 = 1.8462
+ * 1.5em   * 16px   = 24 => line-height: 24    = 1
+ * 1.375em * 16px   = 22 => line-height: 24/22 = 1.0909
+ * 1.25em  * 16px   = 20 => line-height: 24/20 = 1.2
+ * 1.125em * 16px   = 18 => line-height: 24/18 = 1.3333
+ * 1em     * 16px   = 16 => line-height: 24/16 = 1.5
+ * 0.875em * 16px   = 14 => line-height: 24/14 = 1.7143
+ * 0.75em  * 16px   = 12 => line-height: 24/12 = 2
+ */
+/**
+ * Size and lineheight calculation for magicNumber 22
+ *
+ * 3em     * 16px   = 48 => line-height: 66/48 = 1.375
+ * 2.875em * 16px   = 46 => line-height: 66/46 = 1.4348
+ * 2.75em  * 16px   = 44 => line-height: 44    = 1
+ * 2.625em * 16px   = 42 => line-height: 44/42 = 1.0476
+ * 2.5em   * 16px   = 40 => line-height: 44/40 = 1.1
+ * 2.375em * 16px   = 38 => line-height: 44/38 = 1.1579
+ * 2.25em  * 16px   = 36 => line-height: 44/36 = 1.2222
+ * 2.125em * 16px   = 34 => line-height: 44/34 = 1.2941
+ * 2em     * 16px   = 32 => line-height: 44/32 = 1.375
+ * 1.875em * 16px   = 30 => line-height: 44/30 = 1.4667
+ * 1.75em  * 16px   = 28 => line-height: 44/28 = 1.5714
+ * 1.625em * 16px   = 26 => line-height: 44/26 = 1.6923
+ * 1.5em   * 16px   = 24 => line-height: 44/24 = 1.8333
+ * 1.375em * 16px   = 22 => line-height: 22    = 1
+ * 1.25em  * 16px   = 20 => line-height: 22/20 = 1.1
+ * 1.125em * 16px   = 18 => line-height: 22/18 = 1.2222
+ * 1em     * 16px   = 16 => line-height: 22/16 = 1.375
+ * 0.875em * 16px   = 14 => line-height: 22/14 = 1.5714
+ * 0.75em  * 16px   = 12 => line-height: 22/12 = 1.8333
+*/
+/**
+ * Typographic mixins.
+ */
+/**
+ * Typographic defaults.
+ */
+/**
+ * Headings
+ */
+/**
+ * Text elements
+ */
+/**
+ * Display source code.
+ */
+/**
+ * Lists
+ */
+/**
+ * Tables. Because of the need for padding on TH and TD, the vertical rhythm
+ * on table cells has to be 1.5*@magic-number.
+ */
+/**
+ * More typography elements
  */
 .wrap-all {
-  background: #fff;
+  font: 16px/1.5 Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.wrap-all h1,
+.wrap-all h2,
+.wrap-all h3,
+.wrap-all h4,
+.wrap-all h5,
+.wrap-all h6 {
+  font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.wrap-all h1 img,
+.wrap-all h2 img,
+.wrap-all h3 img,
+.wrap-all h4 img,
+.wrap-all h5 img,
+.wrap-all h6 img {
+  margin: 0;
+}
+.wrap-all h1 {
+  font-size: 2.375em;
+  line-height: 1.26315789;
+  font-weight: normal;
+}
+.wrap-all h1 ~ h1,
+.wrap-all h1 ~ h2,
+.wrap-all h1 ~ h3,
+.wrap-all h1 ~ h4,
+.wrap-all h1 ~ h5,
+.wrap-all h1 ~ h6 {
+  margin-top: 48px;
+}
+.wrap-all h1 + h2 {
+  margin-top: 24px;
+}
+.wrap-all h2 {
+  font-size: 1.875em;
+  line-height: 1.6;
+  font-weight: normal;
+  margin-top: 48px;
+}
+.wrap-all h2 + h3 {
+  margin-top: 24px;
+}
+.wrap-all h3 {
+  font-size: 1.375em;
+  line-height: 1.09090909;
+  font-weight: normal;
+}
+.wrap-all h4 {
+  font-size: 1.25em;
+  line-height: 1.2;
+  font-weight: normal;
+}
+.wrap-all h5 {
+  font-size: 1em;
+  line-height: 1.5;
+}
+.wrap-all h6 {
+  font-size: 0.875em;
+  line-height: 1.71428571;
+}
+.wrap-all p {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.wrap-all p:last-of-type {
+  margin-bottom: 0;
+}
+.wrap-all small,
+.wrap-all .small,
+.wrap-all .smaller {
+  font-size: 0.875em;
+}
+.wrap-all i,
+.wrap-all b,
+.wrap-all em,
+.wrap-all strong {
+  line-height: 1em;
+}
+.wrap-all strong,
+.wrap-all b {
+  font-weight: bold;
+}
+.wrap-all mark {
+  color: #000;
+  background-color: #ffff99;
+}
+.wrap-all abbr[title],
+.wrap-all dfn[title] {
+  text-decoration: dotted underline;
+}
+.wrap-all em,
+.wrap-all i,
+.wrap-all dfn {
+  font-style: italic;
+}
+.wrap-all sub,
+.wrap-all sup {
+  font-size: 0.75em;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+.wrap-all sup {
+  top: -0.5em;
+}
+.wrap-all sub {
+  bottom: -0.25em;
+}
+.wrap-all blockquote {
+  border-left: 4px solid #eee;
+  padding-left: 1em;
+  font-style: italic;
+  margin-left: 1em;
+  margin-bottom: 24px;
+}
+.wrap-all pre,
+.wrap-all code,
+.wrap-all kbd,
+.wrap-all samp,
+.wrap-all .code {
+  font-size: 1.25em;
+  font-family: "Courier New", Courier, monospace;
+}
+.wrap-all code,
+.wrap-all samp {
+  border: 1px solid #ccc;
+}
+.wrap-all code {
+  background-color: #eee;
+  line-height: 1em;
+}
+.wrap-all pre,
+.wrap-all div.code,
+.wrap-all pre code {
+  font-size: 1em;
+  line-height: 1.5;
+  white-space: pre;
+}
+.wrap-all pre {
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+.wrap-all pre code {
+  display: block;
+  overflow: auto;
+  line-height: inherit;
+}
+.wrap-all div.code,
+.wrap-all pre code {
+  border: 1px solid #ccc;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 11px 1em;
+  background-color: #eee;
+}
+.wrap-all ul,
+.wrap-all ol {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  padding-left: 1.5em;
+}
+.wrap-all ul p,
+.wrap-all ol p {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.wrap-all ul ul,
+.wrap-all ol ul,
+.wrap-all ul ol,
+.wrap-all ol ol {
+  margin: 0;
+}
+.wrap-all ul {
+  list-style-type: disc;
+}
+.wrap-all ol {
+  list-style-type: decimal;
+}
+.wrap-all dl {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.wrap-all dl.horizontal dt {
+  clear: left;
+  float: left;
+  width: 7em;
+}
+.wrap-all dl.horizontal dd {
+  margin-left: 8em;
+  display: block;
+}
+.wrap-all dd {
+  margin-left: 1.5em;
+}
+.wrap-all table {
+  margin-top: 0;
+  margin-bottom: 24px;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+.wrap-all tr {
+  border-bottom: 1px solid #ccc;
+}
+.wrap-all tr:last-of-type {
+  border-color: transparent;
+}
+.wrap-all tr:only-of-type {
+  border-color: #ccc;
+}
+.wrap-all th,
+.wrap-all td {
+  padding: 12px 24px 11px;
+  border-right: 1px solid #ccc;
+}
+.wrap-all th:last-of-type,
+.wrap-all td:last-of-type {
+  border-right: none;
+}
+@media (max-width: 450px) {
+  .wrap-all th,
+  .wrap-all td {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+.wrap-all hr {
+  position: relative;
+  border: 0;
+  height: 1px;
+  background: #ddd;
+  margin-top: 35px;
+  margin-bottom: 36px;
+}
+/**
+ * Responsive Grid
+ */
+/**
+ * A small clearfix:
+ * http://stackoverflow.com/questions/211383/what-methods-of-clearfix-can-i-use
+ */
+/**
+ * Wrap grid in a container.
+ */
+/**
+ * All columns must be wrapped in a row.
+ */
+/**
+ * Create a column spanning @col columns.
+ */
+/**
+ * Push a column @offset columns.
+ */
+/**
+ * Pull a column left @offset columns.
+ */
+/**
+ * Pull a column right @offset columns.
+ */
+/**
+ * Show grid.
+ */
+.route-grid .inner-wrap {
+  background: url(../img/grid/grid1260x12x85x20.png);
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: 100% auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 1260px) {
+  .route-grid .inner-wrap {
+    background-size: 1260px auto;
+  }
+}
+.route-typography .inner-wrap {
+  background: url(../img/grid/horisontal-grid-24.png);
+}
+.wrap-all {
+  width: 100%;
+  background-color: #fff;
 }
 .inner-wrap {
-  margin: 0 auto;
-  max-width: 1220px;
-  padding: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 10px;
+  max-width: 1240px;
 }
 .row {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: -0.79365079%;
+  margin-right: -0.79365079%;
+}
+.site-header,
+.breadcrumb-wrap,
+.footer {
+  flex: 0 0 auto;
+  width: 98.41269841%;
+  margin-left: 0.79365079%;
+  margin-right: 0.79365079%;
+}
+.outer-wrap-header {
+  background: #39555C;
+  background: rgba(8, 42, 51, 0.8);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.outer-wrap-header .inner-wrap-header {
+  background: none;
+}
+.outer-wrap-header .site-header {
   display: flex;
 }
-.footer-column {
-  float: left;
-  width: 32%;
-  margin-right: 2%;
+.rm-max .rm-small .rm-button {
+  font-style: normal;
 }
-.footer-column:last-child {
-  margin-right: 0;
+.site-logo-text {
+  font-size: 2.375em;
 }
-.footer-column h4 {
-  font-size: 1.2em;
-}
-.footer-column-wrapper {
-  overflow: auto;
-}
-.sidebar {
-  width: 33%;
-}
-.main {
-  -webkit-box-flex: 1;
-  -moz-box-flex: 1;
-  -ms-flex: 1;
-  -webkit-flex: 1;
-  flex: 1;
-}
-.outer-wrap-footer {
-  clear: both;
-  margin-bottom: 22px;
-  background: #222;
+.site-logo-text a {
+  text-decoration: none;
   color: #fff;
 }
-.outer-wrap-footer a {
-  text-decoration: none;
-  color: #116075;
+.navbar2 {
+  margin-left: auto;
 }
-.outer-wrap-footer a:hover {
-  color: #1785a2;
-  text-decoration: underline;
+.profile {
+  display: none;
 }
-.footer {
+.outer-wrap-flash {
+  padding-top: 57px;
+}
+.inner-wrap-flash {
+  padding: 0;
+  margin: auto;
+  width: 100%;
+  max-width: 1920px;
+  overflow-x: hidden;
+}
+.flash-wrap {
   width: 100%;
 }
-.site-footer {
-  text-align: center;
-  border-top: 1px solid #333;
-  padding-top: 1em;
-  margin-top: 2em;
+.flash-wrap img {
+  width: 100%;
 }
-.site-footer ul {
-  margin: 0;
-  padding: 0;
-  list-type: none;
+.inner-wrap-main {
+  margin-bottom: 24px;
 }
-.site-footer li {
-  display: inline;
-  margin: 0 1em;
+.main {
+  min-height: 240px;
+  flex: 0 0 auto;
+  width: 73.41269841%;
+  margin-left: 0.79365079%;
+  margin-right: 0.79365079%;
+  margin-left: 9.12698413%;
 }
-.footer-column ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
+.main.has-sidebar-left {
+  flex: 0 0 auto;
+  width: 56.74603175%;
+  margin-left: 0.79365079%;
+  margin-right: 0.79365079%;
 }
-.next-previous .next,
-.next-previous .previous {
-  width: 50%;
+.main.has-sidebar-right {
+  flex: 0 0 auto;
+  width: 65.07936508%;
+  margin-right: 0.79365079%;
+  margin-left: 0.79365079%;
 }
-.next-previous .next {
-  float: right;
-  text-align: right;
+.main.has-sidebar-left.has-sidebar-right {
+  flex: 0 0 auto;
+  width: 48.41269841%;
+  margin-right: 0.79365079%;
+  margin-left: 0.79365079%;
+}
+.sidebar-right,
+.sidebar-left {
+  flex: 0 0 auto;
+  width: 23.33333333%;
+  margin-left: 0.79365079%;
+  margin-right: 0.79365079%;
+}
+.sidebar-left {
+  border-right: 1px solid #ddd;
+}
+.sidebar-right {
+  margin-left: 9.12698413%;
+  border-left: 1px solid #ddd;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.sidebar-right.has-sidebar-left {
+  margin-left: 0.79365079%;
 }
 .breadcrumb-list {
-  margin-bottom: 22px;
+  padding-bottom: 12px;
+  margin-top: 12px;
+  margin-bottom: 23px;
+  border-bottom: 1px solid #ddd;
 }
 .breadcrumb-list ul {
   margin: 0;
@@ -515,40 +916,116 @@ template {
 .breadcrumb-list li::after {
   content: " » ";
 }
-/** --------------------------------------------------------------
- *  Header
- */
-.outer-wrap-header {
-  background: #39555C;
-  background: rgba(8, 42, 51, 0.8);
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
+.next-previous {
+  display: flex;
 }
-.site-header {
-  position: relative;
-  width: 100%;
+.next-previous .previous {
+  order: 1;
+  width: 50%;
 }
-.rm-max .rm-small .rm-button {
-  font-size: 2em;
+.next-previous .next {
+  width: 50%;
+  order: 2;
+  flex-grow: 1;
+  text-align: right;
 }
-.site-logo-text {
+.inner-wrap-after-main {
+  margin-bottom: 24px;
+}
+.after-main {
+  border-top: 1px solid #ddd;
+  margin-top: -1px;
+  flex: 0 0 auto;
+  width: 98.41269841%;
+  margin-left: 0.79365079%;
+  margin-right: 0.79365079%;
+}
+.after-main .byline {
+  max-width: 610px;
+}
+.after-main .byline img {
+  border-radius: 50%;
+  display: block;
+  width: 72px;
+  height: 72px;
+  margin-right: 1em;
   float: left;
 }
-.navbar2 {
-  float: right;
+.after-main .byline::after {
+  content: "";
+  display: block;
+  clear: both;
 }
-.profile {
-  display: none;
+.outer-wrap-footer {
+  background: #222;
 }
-.site-logo-text {
-  line-height: 52px;
-  font-size: 2em;
-}
-.site-logo-text a {
-  text-decoration: none;
+.footer {
   color: #fff;
+}
+.footer a {
+  color: #1785a2;
+}
+.footer a:hover {
+  color: #116075;
+}
+.site-footer {
+  text-align: center;
+  padding: 24px;
+}
+.site-footer ul {
+  list-style: none;
+  margin: 0;
+  margin-top: 24px;
+  padding: 0;
+}
+.site-footer ul li {
+  display: inline;
+  margin: 0 1em;
+}
+@media screen and (max-width: 800px) {
+  .navbar2 {
+    display: none;
+  }
+  .profile {
+    display: block;
+  }
+}
+@media screen and (max-width: 750px) {
+  .main {
+    flex: 0 0 auto;
+    width: 81.74603175%;
+    margin-left: 0.79365079%;
+    margin-right: 0.79365079%;
+    margin-left: 9.12698413%;
+  }
+  .main.has-sidebar-left,
+  .main.has-sidebar-right,
+  .main.has-sidebar-left.has-sidebar-right {
+    flex: 0 0 auto;
+    width: 81.74603175%;
+    margin-left: 0.79365079%;
+    margin-right: 0.79365079%;
+    margin-left: 9.12698413%;
+  }
+  .sidebar {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main {
+    flex: 0 0 auto;
+    width: 98.41269841%;
+    margin-right: 0.79365079%;
+    margin-left: 0.79365079%;
+  }
+  .main.has-sidebar-left,
+  .main.has-sidebar-right,
+  .main.has-sidebar-left.has-sidebar-right {
+    flex: 0 0 auto;
+    width: 98.41269841%;
+    margin-right: 0.79365079%;
+    margin-left: 0.79365079%;
+  }
 }
 /**
  * Style for responsive menu
@@ -589,11 +1066,13 @@ a.rm-button:active {
 a.rm-button .rm-button-face-1 {
   position: absolute;
   transition: color 0.10s ease;
+  font-style: normal;
 }
 a.rm-button .rm-button-face-2 {
   position: relative;
   color: transparent;
   transition: color 0.10s ease;
+  font-style: normal;
 }
 a.rm-button.rm-clicked {
   color: #39555C;
@@ -620,7 +1099,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   display: block;
   text-decoration: none;
   white-space: nowrap;
-  padding: 1em;
+  padding: 1.03em;
   outline: none;
 }
 .rm-default ul {
@@ -646,17 +1125,21 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 .rm-desktop li {
   position: relative;
 }
+.rm-desktop li.rm-selected-parent,
+.rm-desktop li.rm-selected,
+.rm-desktop li.selected-parent,
+.rm-desktop li.selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
 .rm-desktop li a:hover,
 .rm-desktop li.current-menu-item a {
   text-decoration: underline;
 }
 .rm-desktop li a {
   color: #fff;
-  background-color: inherit;
 }
-.rm-desktop li a:hover {
-  color: #999999;
-  background-color: inherit;
+.rm-desktop li:hover {
+  background-color: rgba(0, 0, 0, 0.1);
 }
 .rm-desktop li:hover > ul {
   left: 0;
@@ -694,6 +1177,12 @@ a.rm-button.rm-clicked .rm-button-face-2 {
             content: "\f0d8";
         }
 */
+}
+.rm-mobile li.rm-selected-parent,
+.rm-mobile li.rm-selected,
+.rm-mobile li.selected-parent,
+.rm-mobile li.selected {
+  background: #39555C;
 }
 .rm-mobile li.rm-submenu-open > ul {
   position: relative;
@@ -780,15 +1269,6 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 }
 body {
   background: #222;
-  line-height: 1.3;
-}
-.btcf {
-  display: table;
-  clear: both;
-  content: "";
-}
-.outer-wrap-flash {
-  padding-top: 92px;
 }
 .inner-wrap-main a,
 .inner-wrap-breadcrumb a {
@@ -799,55 +1279,16 @@ body {
 .inner-wrap-breadcrumb a:hover {
   color: #04171c;
 }
-.hljs {
-  background: #ddd;
-  padding: 1em;
+.desgin-img {
+  height: 216px;
+  width: auto;
 }
-.byline {
-  width: 100%;
-  max-width: 550px;
+.olof-fb-img {
+  height: 288px;
+  width: auto;
 }
-.byline:after {
-  display: table;
-  clear: both;
-  content: "";
-}
-.byline img {
-  border-radius: 50%;
-  display: block;
-  width: 80px;
-  height: 80px;
-  margin-right: 1em;
-  float: left;
-}
-/** --------------------------------------------------------------
- *  Logo images
- */
-/** --------------------------------------------------------------
- *  Responsive design
- */
 img {
   max-width: 100%;
-}
-@media screen and (max-width: 750px) {
-  .sidebar {
-    display: none;
-  }
-}
-@media screen and (max-width: 700px) {
-  .navbar2 {
-    display: none;
-  }
-  .profile {
-    display: block;
-  }
-  .footer-column {
-    width: 100%;
-    margin-right: 0;
-  }
-}
-@media screen and (max-width: 300px) {
-  .site-logo-text {
-    font-size: 1.5em;
-  }
+  vertical-align: middle;
+  object-fit: contain;
 }

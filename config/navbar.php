@@ -38,6 +38,18 @@ return [
                 "url"   => $this->di->get("url")->create("markdown"),
                 "title" => t("Markdown text")
             ],
+
+            "grid" => [
+                "text"  => t("Grid"),
+                "url"   => $this->di->get("url")->create("grid"),
+                "title" => t("Grid")
+            ],
+
+            "typography" => [
+                "text"  => t("Typografi"),
+                "url"   => $this->di->get("url")->create("typography"),
+                "title" => t("Typografi-text")
+            ],
         ],
     ],
 
@@ -57,7 +69,7 @@ return [
 
             "index" => [
                 "text"  => t("Hem"),
-                "url"   => $this->di->get("url")->create("index"),
+                "url"   => $this->di->get("url")->create(""),
                 "title" => t("Hem")
             ],
 
@@ -78,6 +90,18 @@ return [
                 "text"  => t("Markdown"),
                 "url"   => $this->di->get("url")->create("markdown"),
                 "title" => t("Markdown text")
+            ],
+
+            "grid" => [
+                "text"  => t("Grid"),
+                "url"   => $this->di->get("url")->create("grid"),
+                "title" => t("Grid")
+            ],
+
+            "typography" => [
+                "text"  => t("Typografi"),
+                "url"   => $this->di->get("url")->create("typography"),
+                "title" => t("Typografi-text")
             ],
         ],
     ],

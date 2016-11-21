@@ -1,11 +1,9 @@
 ---
 titleBreadcrumb: Hem
 ...
-Hemsida gjord i Anax Flat
-===============================
-Välkommen till min sida som är byggd med Anax Flat.
 
-###Kort info om mig
+Om mig
+=================
 
 År 1995 föddes jag, Olof Enström, i Kalmar. Jag är uppvuxen i Smedby, en liten by utanför Kalmar. Jag har alltid haft ett stort teknikintresse och har alltid varit den i familjen som har fått ta hand om tekniska prylar och problem.
 
@@ -15,4 +13,4 @@ Efter gymnasiet blev det två års paus. Jag började med att sommarjobba hos f�
 
 När det blir tid över efter skolarbete så försöker jag styrketräna så mycket som möjligt och skulle jag ha ännu ett par timmar över så blir det väl att spela CS.
 
-![Olof Enström](img/olof-facebook-picture.jpg "Olof Enström")
+<img src="img/olof-facebook-picture.jpg" alt="Olof Enström" class="olof-fb-img">

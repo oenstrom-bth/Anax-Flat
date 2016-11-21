@@ -1,4 +1,4 @@
-Copyright &copy; 2016 [Olof Enström](http://olofenstrom.com) (olof.enstrom@gmail.com)
+Copyright &copy; 2016 [Olof Enström](http://olofenstrom.com)
 
 * [Licens](license)
 * [Cookies](cookies)
