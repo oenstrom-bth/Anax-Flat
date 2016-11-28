@@ -982,7 +982,7 @@ template {
   display: inline;
   margin: 0 1em;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 970px) {
   .navbar2 {
     display: none;
   }
