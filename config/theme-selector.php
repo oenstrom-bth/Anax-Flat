@@ -76,5 +76,57 @@ return [
             "class"      => "fun",
             "stylesheets" => []
         ],
+
+        "separator3" => "------------------------------------",
+
+        "balance" => [
+            "title"         => "Princip: Balans",
+            "class"         => "balance",
+            "stylesheets"   => [
+                "css/balance.min.css"
+            ]
+        ],
+
+        "depth" => [
+            "title"         => "Princip: Djup",
+            "class"         => "depth",
+            "stylesheets"   => [
+                "css/depth.min.css"
+            ]
+        ],
+
+        "unity" => [
+            "title"         => "Princip: Enhetlighet",
+            "class"         => "unity",
+            "stylesheets"   => [
+                "css/unity.min.css"
+            ]
+        ],
+
+        "separator4" => "------------------------------------",
+
+        "photo" => [
+            "title"         => "Element: Foto",
+            "class"         => "photo",
+            "stylesheets"   => [
+                "css/photo.min.css"
+            ]
+        ],
+
+        "texture" => [
+            "title"         => "Element: Textur",
+            "class"         => "texture",
+            "stylesheets"   => [
+                "css/texture.min.css"
+            ]
+        ],
+
+        "gradient" => [
+            "title"         => "Element: Gradient",
+            "class"         => "gradient",
+            "stylesheets"   => [
+                "css/gradient.min.css"
+            ]
+        ],
     ]
 ];

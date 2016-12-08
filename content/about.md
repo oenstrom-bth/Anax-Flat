@@ -11,4 +11,4 @@ Min sida hittar du på GitHub: [Anax Flat](https://github.com/oenstrom/Anax-Flat
 
 Mitt tema hittar du på GitHub: [Anax Flat Theme](https://github.com/oenstrom/anax-flat-theme).
 
-<img src="img/design.jpg" alt="Design" class="design-img">
+[FIGURE src="image/design.jpg" alt="Design" class="design-img"]

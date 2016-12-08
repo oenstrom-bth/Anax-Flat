@@ -13,6 +13,6 @@ Efter gymnasiet blev det två års paus. Jag började med att sommarjobba hos f�
 
 När det blir tid över efter skolarbete så försöker jag styrketräna så mycket som möjligt och skulle jag ha ännu ett par timmar över så blir det väl att spela CS.
 
-[FIGURE src="image/olof-facebook-picture.jpg?h=288" alt="Olof Enström"]
+[FIGURE src="image/olof-facebook-picture.jpg" alt="Olof Enström" class="left olof-fb-img"]
 
-<img src="img/olof-facebook-picture.jpg" alt="Olof Enström" class="olof-fb-img">
+[FIGURE src="image/olof-facebook-picture.jpg?h=288" alt="Olof Enström" class="right"]
