@@ -6,11 +6,15 @@ Vi har analyserat hastighet och användbarhet på fyra olika sidor. Du hittar v�
 1. dbwebb.se
 -----------------------------
 
+![dbwebb.se](image/analysis/dbwebb.png?w=750)
+
 Sidan laddar in all CSS via ett externt stylesheet. För att snabba upp renderingen kan man skjuta upp inläsningen av resurserna som blockerar renderingen, eller läsa in dem asynkront eller genom att infoga de viktigaste delarna direkt i HTML-koden. HTML-koden och “responsive-menu.js” bör också minifieras.
 
 
 2. blocket.se
 -----------------------------
+
+![blocket.se](image/analysis/blocket.png?w=750)
 
 Komprimera och formatera bilder, javascript, html och css så det går snabbare att hämta och tolka sidan. Detta sparar många kilobyte, vilket medför snabbare laddningstid.
 
@@ -18,11 +22,15 @@ Komprimera och formatera bilder, javascript, html och css så det går snabbare 
 3. developer.mozilla.org
 -----------------------------
 
+![developer.mozilla.org](image/analysis/developer-mozilla.png?w=750)
+
 Det första som MDN måste fixa är att sluta blockera renderingen av Javascript och CSS. Fixa responstiden till servern och göra så att knapparna och länkarna är större. Och ta del av webbläsarens caching.
 
 
 4. stackoverflow.com
 -----------------------------
+
+![stackoverflow.com](image/analysis/stackoverflow.png?w=750)
 
 Komprimera och formatera bilderna för att få en snabbare laddningstid på http://stackoverflow.com/users. Bilderna är mycket större än de borde vara.  Utnyttja caching. Inte blockera JavaScript och CSS.
 

@@ -3,6 +3,9 @@ Designprinciper
 
 1. www.skanetrafiken.se
 ----------------------------------------
+
+![skanetrafiken.se](image/analysis/skanetrafiken.png?w=750)
+
 Syftet med webbsidan är att söka resor, köpa, ladda och spärra jojo-kort. Man kan även se trafikinformation som berör de resande samt information om hur man reser med skånetrafiken.
 
 Webbsidan är väldigt ljus med genomskinliga element som gör att man ser bakgrundsbilden. Webbsidan använder en utomhusbild som bakgrundsbild.
@@ -14,6 +17,9 @@ Webbsidan använder några olika designprinciper som balans, återanvändning oc
 
 2. www.spotify.com/se
 ----------------------------------------
+
+![spotify.com/se](image/analysis/spotify.png?w=750)
+
 Syftet med hemsidan är att sälja in sin tjänst, i detta fallet Spotify Premium. Spotify finns även som gratistjänst men fokus ligger på premium.
 
 Spotifys hemsida har ett modernt utseende och använder mycket bilder. Sidan använder sig av ganska mycket mörka färger.
@@ -25,6 +31,9 @@ Spotify använder sig av principerna “rörelse” och “perspektiv”. När d
 
 3. www.honda.com
 ----------------------------------------
+
+![honda.com](image/analysis/honda.png?w=750)
+
 Syftet med denna webbplats är att övertala besökaren att deras teknik är den bästa när det kommer till fordon.
 
 När man kommer in på webbplatsen så speglar sig modern teknik inom området samt bilder som ger dig en visuell upplevelse av det.
@@ -38,6 +47,9 @@ På vissa delar av webbplatsen finns det videoklipp att kolla på. För att bes�
 
 4. www.wrist.im
 ----------------------------------------
+
+![wrist.im](image/analysis/wrist.png?w=750)
+
 Syftet med denna webbplats är att illustrera olika designer på klockor.
 
 En enkel modern design som använder många olika bakgrundsfärger.
